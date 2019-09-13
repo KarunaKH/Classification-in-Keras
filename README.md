@@ -6,6 +6,9 @@ Trained a neural network on differentiating between a cat pic and a dog pic. The
 2. Jupyter Notebook
 3. HDFView-2.14.0
 
+# Data:
+Download data from: [Data](http://bytes.usc.edu/cs585/f18_DS0agI4Me/hw/HW5/data/data.zip)
+
 # Instructions:
 1. Use your GMail/GDrive account to log in, click on the '+ New' button at the top left of the page, look for the 'Colab' app and connect it - this will make the app (which connects to the Google Cloud on the other end!) be able to access (read, write) files and folders in your GDrive.
 
@@ -36,14 +39,9 @@ Your NEURAL NETWORK IS TRAINED!
 PS: Output 0=cat and 1=dog.
 
 
-# Code:
-- The code uses the Keras NN library which runs on graph dataflow execution backends such as Tensorflow.
-- The backprop loop runs 50 times(also called epochs)
-
-
 # Accuracy: 82%
 This is not bad! Considering there were only 2800 pictures to learn from!\
 This goes without saying, the more the data, the better the accuracy of the model!
 
 # Conclusion:
-As the model is only 82% accurate, there will be some pics that will be misclassified. For example, the pics placed in this repository under "MISCLASSIFICATION" folder.
+As the model is only 82% accurate, there will be some pics that will be misclassified. For example, the pics placed in this repository under "MISCLASSIFICATION" folder. And there are some pics for "PROPER CLASSIFICATION".
